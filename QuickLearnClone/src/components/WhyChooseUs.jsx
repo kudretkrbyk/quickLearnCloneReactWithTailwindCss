@@ -1,6 +1,6 @@
 export default function WhyChooseUs() {
   return (
-    <div className="WHY-Choose-Us  bg-purple-900 w-full flex flex-col lg:flex-row items-center justify-center gap-5">
+    <div className="WHY-Choose-Us  bg-purple-900 w-full flex flex-col lg:flex-row items-center justify-center gap-5 p-5">
       <div className="flex flex-col gap-4 p-12  w-full lg:w-1/2">
         <div className="text-gray-500 font-bold">WHY CHOOSE US</div>
         <div className="text-white text-3xl font-bold">
@@ -70,8 +70,18 @@ export default function WhyChooseUs() {
             </div>
           </div>
 
-          <div className="absolute z-30 right-24  bg-cover bg-center rounded-full w-[400px] h-[400px] bg-[url(https://www.radiustheme.com/demo/wordpress/themes/quiklearn/wp-content/uploads/2023/08/why-choose-us-img-1.png)]"></div>
-          <div className="absolute left-0 bg-cover bg-center rounded-full w-[300px] h-[300px] bg-[url(https://www.radiustheme.com/demo/wordpress/themes/quiklearn/wp-content/uploads/2023/08/why-choose-us-img-2.png)]"></div>
+          <div className="absolute z-30 right-24  bg-cover bg-center rounded-full ">
+            <img
+              src="https://www.radiustheme.com/demo/wordpress/themes/quiklearn/wp-content/uploads/2023/08/why-choose-us-img-1.png"
+              className="rounded-full siz"
+            />
+          </div>
+          <div className="absolute left-0  ">
+            <img
+              src="https://www.radiustheme.com/demo/wordpress/themes/quiklearn/wp-content/uploads/2023/08/why-choose-us-img-2.png"
+              className="rounded-full"
+            />
+          </div>
         </div>
       </div>
     </div>

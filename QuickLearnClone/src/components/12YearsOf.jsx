@@ -1,3 +1,4 @@
+import image from "../images/users.svg";
 export default function YearsOf() {
   return (
     <div className="12-years-of w-full flex flex-col lg:flex-row items-center justify-center p-10 gap-4 pt-20 ">
@@ -14,7 +15,7 @@ export default function YearsOf() {
           </div>
           <div className="flex items-center justify-center gap-4 border h-28 border-gray-200 rounded-lg p-6">
             <div className="rt-media ">
-              <img src="./users.svg" alt="" />
+              <img src={image} alt="" />
             </div>
             <div>
               <div className="text-4xl font-bold">35K+</div>
