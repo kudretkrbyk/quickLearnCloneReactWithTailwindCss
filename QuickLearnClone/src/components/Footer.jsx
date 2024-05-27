@@ -78,7 +78,7 @@ export default function Footer() {
           <div className="border-gray-500 border  rounded-md p-2 px-2 flex items-center justify-between">
             <div>
               <input
-                className="bg-gray-900 border-none"
+                className="bg-gray-900 outline-none border-none"
                 value="Your Email Adress"
               />
             </div>

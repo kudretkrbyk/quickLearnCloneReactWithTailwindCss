@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
     <div>
-      <div className="navbar  bg-white w-full px-5 p-3 flex flex-col gap-3">
+      <div className="navbar select-none bg-white w-full px-5 p-3 flex flex-col gap-3">
         <div className="hidden  lg:flex items-center justify-between p-2 w-full">
           <div className="w-2/12 hidden lg:inline">
             <img
@@ -17,7 +17,11 @@ export default function Navbar() {
                 All Categories
               </div>
               <div>
-                <input type="text" value="Find Your Courses..."></input>
+                <input
+                  type="text"
+                  className="outline-none border-none"
+                  value="Find Your Courses..."
+                ></input>
               </div>
             </div>
             <div>

@@ -63,26 +63,54 @@ export default function WhyChooseUs() {
         </div>
       </div>
       <div className="w-full lg:w-1/2 flex items-center justify-center">
-        <div className="w-full  relative flex items-center justify-center   ">
-          <div className="z-50 bg-white size-24 rounded-full left-48 bottom-16 flex items-center justify-center absolute">
-            <div className="bg-purple-400 size-20 rounded-full flex items-center justify-center text-center">
-              %15 Discount
+        <div className="w-[100vh] h-[64vh] relative flex items-center justify-center">
+          <div className="z-50 absolute top-16 left-0 right-28 rounded-full flex items-center justify-center">
+            <div className="bg-white size-24 rounded-full flex items-center justify-center ">
+              <div className="bg-purple-400 size-20 rounded-full flex items-center justify-center text-center">
+                %15 Discount
+              </div>
             </div>
           </div>
 
-          <div className="absolute z-30 right-24  bg-cover bg-center rounded-full ">
+          <div className="z-40 absolute right-0 top-0 bottom-0 bg-cover bg-center rounded-full ">
             <img
               src="https://www.radiustheme.com/demo/wordpress/themes/quiklearn/wp-content/uploads/2023/08/why-choose-us-img-1.png"
-              className="rounded-full siz"
+              className="rounded-full size-96"
             />
           </div>
-          <div className="absolute left-0  ">
+          <div className="z-30 absolute left-0 bottom-0">
             <img
               src="https://www.radiustheme.com/demo/wordpress/themes/quiklearn/wp-content/uploads/2023/08/why-choose-us-img-2.png"
               className="rounded-full"
             />
           </div>
         </div>
+
+        {/* <div className="w-full h-full relative flex items-end justify-start">
+          <div className="flex flex-col justify-start items-end">
+            
+            <div className="z-50 -mb-12 bg-white size-24 rounded-full flex items-center justify-center">
+              <div className="bg-purple-400 size-20 rounded-full flex items-center justify-center text-center">
+                %15 Discount
+              </div>
+            </div>
+
+            <div className="z-30">
+              <img
+                src="https://www.radiustheme.com/demo/wordpress/themes/quiklearn/wp-content/uploads/2023/08/why-choose-us-img-2.png"
+                className="rounded-full"
+              />
+            </div>
+
+          </div>
+
+          <div className="z-40 -ml-16 bg-cover bg-center rounded-full ">
+            <img
+              src="https://www.radiustheme.com/demo/wordpress/themes/quiklearn/wp-content/uploads/2023/08/why-choose-us-img-1.png"
+              className="rounded-full siz"
+            />
+          </div>
+        </div> */}
       </div>
     </div>
   );
